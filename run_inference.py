@@ -54,7 +54,7 @@ if __name__ == '__main__':
     if image_path is None:
         default_candidate = os.path.join(os.getcwd(), 'image.jpg')
         prompt = (
-            "Enter path to image file (or press Enter to use './image.jpg' if present; type 'q' to quit): "
+            "Enter path to image file (type 'q' to quit): "
         )
         while True:
             user_input = input(prompt).strip()
