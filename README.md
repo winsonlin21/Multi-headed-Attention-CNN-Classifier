@@ -10,10 +10,10 @@ A lightweight convolutional neural network with multi-headed attention that clas
 - Easy to adapt to other datasets — tweak image size, channels, and class count
 
 
-##Requirements
+## Requirements
 Install PyTorch package
 
-##How to run
+## How to run
 1) ```python run_inference.py```
 2) You’ll be prompted to enter the path to an image containing a single digit.
 3) Hopefully the predicition is correct. 
