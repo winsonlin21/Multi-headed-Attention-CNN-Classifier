@@ -1,6 +1,20 @@
-### This CNN classify images of digits from 0-9 with 99% accuracy 
+# CNN Digit Classifier (0–9)
 
-# How to run classfier
-1) run run_inference.py
-2) input the file location of the image you want to classify.
-3) the model will try to predict what digit is shown in the image.
+A simple convolutional neural network that classifies handwritten digits (0–9) with **~99% test accuracy**.
+
+---
+
+## Features
+- Trained on MNIST-style digits
+- Fast single-image inference
+- Clean, minimal interface for non-ML users
+
+---
+
+## Requirements
+- Python 3.8+
+- Dependencies listed in `requirements.txt`
+
+Install:
+```bash
+pip install -r requirements.txt
